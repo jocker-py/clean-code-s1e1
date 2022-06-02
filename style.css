@@ -139,7 +139,7 @@
   display: none;
 }
 
-.list__item_edit input[type=text] {
+.list__item_edit .list__text_inline-block  {
   display: inline-block;
   width: 224px;
 }
