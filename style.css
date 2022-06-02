@@ -98,7 +98,7 @@
   color: #888;
 }
 
-.form__text, 
+.form__text:focus, 
 .list__text:focus {
   color: #333;
 }
