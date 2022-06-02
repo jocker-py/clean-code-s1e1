@@ -12,17 +12,17 @@
   </header>
   <main class="tasks">
       <section class="new">
-        <form action="#" id="topSectionForAddingElementToList" class="new__form form">
+        <form action="#" id="form" class="new__form form">
           <label for="form__new-task">Add Item</label>
           <div class="form__wrapper form__wrapper_row">
-            <input id="new-task"class="form__new-task form__text form__input task" type="text">
+            <input id="form__new-task"class="form__new-task form__text form__input task" type="text">
             <button class="form__button button">Add</button>
           </div>
         </form>
       </section>
       <section class="todo">
         <h3 class="todo__title title">Todo</h3>
-        <ul id="incompleteTasks" class="todo__list list">
+        <ul id="incompleted" class="todo__list list">
           <li class="list__item">
             <input type="checkbox" class="list__input list__checkbox">
             <label class="list__title task">Pay Bills</label>
@@ -45,7 +45,7 @@
       </section>
       <section class="complete">
         <h3 class="complete__title title">Completed</h3>
-        <ul id="completed-tasks" class="complete__list list">
+        <ul id="completed" class="complete__list list">
           <li class="list__item">
             <input type="checkbox" class="list__input list__checkbox" checked>
             <label class="list__title task">See the Doctor</label>
